@@ -1,3 +1,3 @@
 docker_gpg_key_url: https://download.docker.com/linux/ubuntu/gpg
 docker_repo_template: |
-  deb [arch={{ ansible_architecture }} signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu {{ ansible_lsb.codename }} stable
+  deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu {{ ansible_lsb.codename }} stable
